@@ -6,7 +6,7 @@ pipeline {
   agent { label 'master' }
     tools {
       maven 'Maven'
-      jdk 'null'
+      jdk '1.8.0_302'
     }
   options { 
     timestamps () 
